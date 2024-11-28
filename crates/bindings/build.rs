@@ -37,7 +37,7 @@ mod webview2_link {
         const WEBVIEW2_LIBS: &[&str] = &[
             "WebView2Loader.dll",
             "WebView2Loader.dll.lib",
-            "WebView2LoaderStatic.lib",
+            //"WebView2LoaderStatic.lib",
         ];
         const WEBVIEW2_TARGETS: &[&str] = &["arm64", "x64", "x86"];
 
